@@ -5,6 +5,18 @@
 % package and file page setting for image input
 \graphicspath{ {images/} }
 
+%Allows for linking within document and externally
+\usepackage{hyperref}
+%setup for hyperref colour schemes
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Sharelatex Example},
+    pdfpagemode=FullScreen,
+    }
+
 \usepackage{geometry}
 % package for setting page format and size, and setting paragraph indents, paragraph spacing, and line spacing. 
 \geometry{a4paper, left=25mm, right=25mm, top=25mm, bottom=25mm}
