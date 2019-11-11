@@ -23,30 +23,54 @@
 \lfoot{}%Left side of Footer
 \rfoot{Page \thepage}
 
-% Title information
-\title{Your Thesis Title}
-\author{Your Name}
-\date{date submitted}
-% Title information
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 \frontmatter
-\maketitle
-%creates title information based on Title information in preamble
+% details for your title page
+% You will need to enter this information manually if you wish to keep this style of formatting.
+
+\vspace*{2.5cm}
+\begin{center}
+    \huge{Your Awesome Research Thesis Title}
+
+    \huge{\&}
+
+    \emph{\huge{Your Creative Component Title}}
+
+
+\vspace{2.5cm}
+    \Large{Your Name}
+
+    \normalsize{Your certifications}
+
+    Your student number
+
+\vspace{2cm}
+    \Large{Great University}
+
+    \normalsize{Faculty of Awesome}
+
+    Department of Whizzo
+
+    Date Submitted
+
+
+\end{center}
+
 
 \pagebreak
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Place this section following the front matter documents - eg: declaration, abstract, and acknowledgements
-\pagebreak 
 
 \tableofcontents
-\label{contents}
 
 \pagebreak
 
 \mainmatter
+
+%in the exported file from Scrivener, some of the sections are automatically assigned the command 'part', and these will need to be changed to 'chapter*'
+% Do this for the Declaration, Abstract, Acknowledgement, Introduction, Literature Review, Conclusion, and Works Cited. 
+%You will also need to itemize the Works Cited List if you want it to be displayed with bullet points. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
