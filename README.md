@@ -7,3 +7,7 @@ Completed Assignments:
 Scoping Part 1
 Scoping Part 2
 Elaboration
+
+
+Notes:
+OSP Assignment Removed
